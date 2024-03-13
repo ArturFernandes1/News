@@ -1,0 +1,18 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+.footerblak{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 20vh;   
+    background-color: black;
+}
+
+.align-text{
+    color: white;
+    line-height: 19px;
+    text-align: center;
+}

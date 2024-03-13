@@ -1,0 +1,29 @@
+  /*estilizacao de imagem*/
+    
+.img {
+    float: left;
+    max-width: 330px;
+    max-height: 280px;
+    margin-left: -66px;
+    margin-top: -87px;
+    margin-right: 55px; 
+  
+
+   
+}
+@media screen and (max-width: 400px) {
+    
+     .img{
+    
+        max-width: 240px;
+        
+        margin-top: -45px;
+        margin-bottom: 40px;
+        
+        
+    }
+}
+.img{
+    border-radius: 50%;
+    border: rgb(12, 231, 231) solid 6.5px;
+}

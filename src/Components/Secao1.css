@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Defina as propriedades do container flexível */
+h1{
+    color: black;
+    margin: 35px;
+}
+hr{
+    margin: 30px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.card {
+  flex-grow: 1; /* Todos os itens terão flex-grow: 1 por padrão */
+  background-color: rgb(176, 184, 184);
+  text-align: center;
+  margin: 10px;
+  padding: 50px;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #888, 0 0 10px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s ease-in-out;
+  color: white;
+}
+
+#ultimocard {
+  flex-grow: 2;
+  
+  /* O item com ID card-ultimo terá flex-grow: 2 */
+ 
+}
+
+
+@media screen and (max-width: 400px) {
+  .card {
+      padding: 35px; /* Reduzir o espaçamento interno para telas menores */
+      flex-wrap: wrap;
+  }
+
+
+  
+}
+
+
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); /* Adiciona o glow quando o mouse passa por cima */
+  background-color: white;
+}
+
+/* Estilize a imagem dentro dos quadros (ajuste o tamanho conforme necessário) */
+
+/* Estilize o texto dentro dos quadros (ajuste as cores e fontes conforme necessário) */
+
+.imagem {
+    width: 90px;
+    height: 70px;
+    transition: transform 0.6s; /* Adicione uma transição suave */
+  }
+

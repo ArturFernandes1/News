@@ -1,0 +1,13 @@
+/* styles.css */
+body {
+    
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000; /* Cor do cursor personalizado */
+    border-radius: 50%; /* Deixa o cursor redondo */
+    pointer-events: none; /* Garante que o cursor não interfira com os elementos clicáveis */
+}

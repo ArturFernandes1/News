@@ -1,0 +1,25 @@
+    <h1>Redes Sociais</h1>
+            <p>linkedin.com/in/artur-dantas-fernandes-b9186926b</p>
+            <p>github.com/ArturFernandes1</p>
+            <p>arturdantas2501@gmail.com</p>
+            <p>é um exemplo de um componente de classe em React.</p>
+
+
+
+
+<body>
+
+<div class="minhaDiv" onclick="exibirConteudo()">Clique aqui</div>
+<div id="conteudoExibido">Conteúdo da div exibido aqui</div>
+
+<script>
+    function exibirConteudo() {
+        var conteudo = document.getElementById('conteudoExibido');
+
+        if (conteudo.style.display === 'none') {
+            conteudo.style.display = 'block';
+        } else {
+            conteudo.style.display = 'none';
+        }
+    }
+</script>

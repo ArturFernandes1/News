@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+/* Adicione uma imagem de fundo ao cabeçalho */
+header {
+    background-image: url('../Assets/plano-de-fundo.avif'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real da sua imagem */
+    background-size: cover; /* Para cobrir todo o cabeçalho */
+    background-position:center; /* Centralize a imagem no cabeçalho */
+    background-attachment: fixed; /* Para fixar a imagem de fundo enquanto a página rola */
+    text-align: center; /* Centralize o conteúdo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho (se necessário) */
+}
+
+
+.container-one img {
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container-one {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 14px;
+}
+
+.dados {
+    margin-top: 160px;
+    margin-bottom: 30px;
+    text-align: center;
+  
+}
+
+.dados h1, .dados h2{
+    color: white;
+}
+
+.dados h2 {
+    font-size: 48px;
+}
+.dados p{
+    font-size: 20px;
+}
+
+/* Estilize os quadros individuais */
+.container-one {
+    background-color: black;
+    text-align: center; /* Centralizar o conteúdo */
+    border: 1px solid #ccc; /* Adicionar uma borda para separar os quadros */
+    box-shadow: 2px 2px 5px #888; /* Sombra leve */
+}
+
+
+/* Estilização para dispositivos mobiles */
+/* Estilização para dispositivos móveis */
+@media screen and (max-width: 400px) {
+    .container-one img{
+        margin: 50px auto 5px; /* Centralizar a imagem com margem superior e inferior */
+        display: block; /* Para alinhar a imagem centralmente */
+    }
+    .dados {
+        text-align: center;
+    }
+    .dados h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+  
+    .caixa1 h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    .caixa1 p{
+        font-size: 18px;
+        text-align: center;
+        margin-top: -15px;
+        margin-bottom: 12px;
+        line-height: 20px;
+    }
+    .container-one img {
+        margin-top: 70px;
+        margin-bottom: 20px;
+       
+       
+    }
+    
+}
+

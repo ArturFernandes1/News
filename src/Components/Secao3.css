@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.scroll-container{
+    margin: 50px;
+    text-align: justify;
+    color: black;
+   
+}
+
+.scroll-item h1{
+    margin-left: 1px;
+    margin-bottom: 10px;
+   
+}
+
+.subtitle2{
+    margin-top: 8px;
+    margin-bottom: 10px;
+  
+}
+
+.linkcurriculo{
+    margin-top: 10px ;
+}
+
+@media screen and (max-width: 400px) {
+    .scroll-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    }
+   
+}
